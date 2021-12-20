@@ -1,15 +1,17 @@
-package minitest.model;
+package BaiTapThem.model;
 
-public class Human {
+public class Animal {
     private String name;
     private int age;
+    private double weight;
 
-    public Human() {
+    public Animal() {
     }
 
-    public Human(String name, int age) {
+    public Animal(String name, int age, double weight) {
         this.name = name;
         this.age = age;
+        this.weight = weight;
     }
 
     public String getName() {
@@ -28,11 +30,20 @@ public class Human {
         this.age = age;
     }
 
+    public double getWeight() {
+        return weight;
+    }
+
+    public void setWeight(double weight) {
+        this.weight = weight;
+    }
+
     @Override
     public String toString() {
-        return "Human{" +
+        return "Animal{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
+                ", weight=" + weight +
                 '}';
     }
 }
