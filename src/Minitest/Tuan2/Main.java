@@ -33,7 +33,6 @@ public class Main {
                         System.out.println("Nhập lựa chọn của bạn: ");
                         choice1 = scanner.nextInt();
                         switch (choice1) {
-
                             case 1:
                                 Human human = humanManager.createHuman(scanner, choice1);
                                 humanManager.addHuman(human);
