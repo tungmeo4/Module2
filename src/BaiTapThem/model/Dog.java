@@ -14,4 +14,7 @@ public class Dog extends Animal implements Function{
     public String makeSound() {
         return "Gâu Gâu";
     }
+
+    public boolean getTeam() {
+    }
 }

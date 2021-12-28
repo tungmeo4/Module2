@@ -60,11 +60,11 @@ public class AnimalManager {
         return null;
     }
 
-    public Animal searchByTeam(String searchTeam) {
+    public void searchByTeam(String searchTeam) {
         boolean check = false;
         for (Animal animal2: animals) {
             if (animal2 instanceof Dog) {
-                if (((Dog) animal2).)
+                if (((Dog) animal2).getTeam().equals(searchTeam));
             }
         }
     }
