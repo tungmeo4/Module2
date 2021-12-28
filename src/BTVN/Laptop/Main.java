@@ -1,4 +1,4 @@
-package BTVN;
+package BTVN.Laptop;
 
 import java.util.ArrayList;
 import java.util.Scanner;

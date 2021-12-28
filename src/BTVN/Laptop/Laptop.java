@@ -1,4 +1,4 @@
-package BTVN;
+package BTVN.Laptop;
 
 public class Laptop {
     private static int VALUE = 0;
