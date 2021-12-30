@@ -9,12 +9,9 @@ import java.util.Date;
 import java.util.Scanner;
 
 public class StudentManager {
+    public static final String PATH_NAME = "D:\\HocLaiModule2\\Module2\\src\\BaiThem\\students.csv";
     Scanner scanner = new Scanner(System.in);
     private ArrayList<Student> students;
-
-    public StudentManager() {
-        this.students = new ArrayList<>();
-    }
 
     public void show() {
         for (Student std : students) {
